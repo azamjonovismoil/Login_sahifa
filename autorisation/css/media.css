@@ -1,0 +1,491 @@
+@media (max-width:1024px) {
+    .contain {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+
+    .cat_btn {
+        margin-left: 10px;
+        margin-right: 15px;
+    }
+
+    .catalog .nav ul {
+        gap: 15px;
+    }
+
+    .footer {
+        padding: 20px 60px 28px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width:768px) {
+    .contain {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cat_btn {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .header .logo {
+        margin-right: auto;
+        margin-left: 30px;
+    }
+
+    .cat_btn {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .catalog .nav {
+        display: none;
+    }
+
+    .user {
+        margin-right: auto;
+        margin-right: 10px;
+    }
+
+    .login_page {
+        padding: 20px 25px 25px 30px;
+        margin-right: 20px;
+    }
+
+    .footer {
+        padding: 20px 20px 28px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width:600px) {
+    .contain {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cat_btn {
+        display: none;
+    }
+
+    .user_room {
+        padding: 0;
+        border: unset;
+    }
+
+    .user {
+        display: flex;
+        gap: 15px;
+    }
+
+    .user_room img,
+    .user_room:hover {
+        background-color: unset;
+        color: unset;
+        filter: unset;
+    }
+
+    .btn_menu {
+        display: block;
+        padding: 7px;
+        border-radius: 50%;
+        background-color: #FBECDA;
+        border: 1px solid #A16341;
+    }
+
+    .user_text {
+        display: none;
+    }
+
+    .login_page,
+    .login_page_2 {
+        padding: 32px 24px 5px 24px;
+        margin: 0 28px 0 28px;
+    }
+
+    .register input {
+        padding: 13px 0px 14px 22px;
+        width: 100%;
+    }
+
+    .register {
+        margin-top: 30px;
+        gap: 12px;
+    }
+
+    .next {
+        padding: 13px 91px 14px;
+        width: 271px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .continue_2 {
+        font-size: 11px;
+        margin-top: 22px;
+        margin-bottom: 37px;
+    }
+
+    .or {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lines,
+    .lines_2 {
+        gap: 6px;
+    }
+
+    .vk_logo a {
+        gap: 18px;
+        padding: 13px 54px 14px 94px;
+    }
+
+    .google_logo a {
+        gap: 17px;
+        padding: 12px 43px 13px 42px;
+    }
+
+    .call a {
+        gap: 17px;
+        padding: 11px 45px 11px 44px;
+    }
+
+    .social_2 {
+        gap: 11px;
+        font-size: 14px;
+    }
+
+    .footer {
+        margin-top: 38px;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .privacy {
+        flex-wrap: wrap;
+        gap: 11px;
+    }
+
+    .conditor_text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .politic {
+        margin-left: 28px;
+        margin-right: 28px;
+    }
+
+    .politics {
+        margin-left: auto;
+        display: flex;
+        margin-right: 40px;
+        gap: 10px;
+    }
+}
+
+@media (max-width:500px) {
+    .header .logo {
+        margin-right: auto;
+        margin-left: 0px;
+    }
+
+    .user {
+        margin-left: auto;
+        position: absolute;
+        right: 0;
+    }
+
+    .user_room:hover img {
+        filter: unset;
+    }
+
+    .catalog {
+        padding-top: 24px;
+        padding-bottom: 25px;
+        max-width: 325px;
+    }
+
+    .login {
+        margin-top: 37px;
+        padding: 32px 24px 36px 24px;
+        background-color: #fff;
+        justify-content: unset;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .main {
+        margin-bottom: 38px;
+    }
+
+    .social_2 {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        font-size: 13px;
+    }
+
+    .vk_logo a {
+        padding: 13px 0px 14px 0px;
+        width: 100%;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .google_logo a {
+        padding: 12px 0 13px 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .call a {
+        padding: 11px 0;
+        justify-content: center;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .mail a {
+        padding: 13px 0;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .login_number {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 12px 45px 10px 0px;
+        margin-right: 22px;
+    }
+
+    .submit_code {
+        position: absolute;
+        margin-left: auto;
+        padding: 13px 14.5px 14px;
+    }
+
+    .mt-38 {
+        margin-top: 38px;
+    }
+
+    .line_1 {
+        width: 5px;
+        height: 1px;
+        background-color: #4C6C91;
+        opacity: 30%;
+    }
+
+    .lines_1,
+    .lines_2 {
+        display: flex;
+        gap: 7px;
+        align-items: center;
+    }
+
+    .line,
+    .line_2 {
+        width: 6px;
+        height: 1px;
+        background-color: #4C6C91;
+        opacity: 30%;
+    }
+
+    .login_page, .recovery_page {
+        margin: unset;
+        padding: unset;
+        background-color: unset;
+    }
+
+    .confirmation_code {
+        gap: 20px;
+    }
+
+    .change_password a {
+        padding: 13px 55px 14px 55px;
+        width: 100%;
+    }
+
+    .login_password input {
+        padding: 13px 0px 14px 22px;
+    }
+
+    .continue_2 {
+        font-size: 11px;
+        justify-content: start;
+        width: unset;
+        margin-top: 22px;
+        margin-bottom: 37px;
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    .privacy {
+        padding-left: 28px;
+        padding-right: 28px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .politics {
+        display: flex;
+        margin: unset;
+        gap: 11px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:350px) {
+    .header .logo {
+        margin-right: auto;
+        margin-left: 0px;
+    }
+
+    .user {
+        margin-left: auto;
+        position: absolute;
+        right: 0;
+    }
+
+    .user_room:hover img {
+        filter: unset;
+    }
+
+    .catalog {
+        padding-top: 24px;
+        padding-bottom: 25px;
+        max-width: 325px;
+    }
+
+    .login {
+        margin-top: 37px;
+        padding: 32px 24px 36px 24px;
+        background-color: #fff;
+        justify-content: unset;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .main {
+        margin-bottom: 38px;
+    }
+
+    .social_2 {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        font-size: 13px;
+    }
+
+    .vk_logo a {
+        padding: 13px 0px 14px 0px;
+        width: 100%;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .google_logo a {
+        padding: 12px 0 13px 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .call a {
+        padding: 11px 0;
+        justify-content: center;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .mail a {
+        padding: 13px 0;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .login_number {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 12px 0px 10px 0px;
+    }
+
+    .submit_code {
+        position: absolute;
+        margin-left: auto;
+        padding: 13px 14.5px 14px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .mt-38 {
+        margin-top: 38px;
+    }
+
+    .line_1 {
+        width: 5.5px;
+        height: 1px;
+        background-color: #4C6C91;
+        opacity: 30%;
+    }
+
+    .lines_1,
+    .lines_2 {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .line,
+    .line_2 {
+        width: 6px;
+        height: 1px;
+        background-color: #4C6C91;
+        opacity: 30%;
+    }
+
+
+    .login_page {
+        margin: unset;
+        padding: unset;
+        background-color: unset;
+    }
+
+    .continue_2 {
+        font-size: 11px;
+        justify-content: start;
+        width: unset;
+        margin-top: 22px;
+        margin-bottom: 37px;
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    .privacy {
+        padding-left: 28px;
+        padding-right: 28px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .politics {
+        display: flex;
+        margin: unset;
+        gap: 11px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
